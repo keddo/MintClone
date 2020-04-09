@@ -11,8 +11,8 @@ body {
 /*header*/
   .container {
   	display: grid;
-  	grid-template-columns: repeat(3, 1fr);
-  	grid-template-rows: 200px auto 200px;
+  	grid-template-columns: 1fr 400px 1fr;
+  	grid-template-rows: auto auto auto;
   }
   #header {
   	display: flex;
@@ -50,18 +50,110 @@ body {
  .lead-text a {
  	text-decoration: none;
  }
-
-
-  span.text-secondary{
+ span.text-secondary{
   	color: #505050;
   }
-  a.text-primary{
+ a.text-primary{
+  	text-decoration: none;
   	color: #0077C5;
   }
+
 /*end fo header*/
 
 
+
 /* main-body */
+
+ #main-body {
+  	 grid-column: 2/3;
+  	 padding: 20px 0;
+  }
+ 
+  #main-body section {
+  	background-color: #fff;
+  	border: 1px solid #c7c7c7;
+  	padding: 30px 30px 0 30px;
+  	border-bottom: none;
+  }
+  #main-body header {
+  	text-align: center;
+  	padding-bottom: 4px;
+  }
+  .form-header h1 {
+  	font-size: 20px;
+  	font-weight: 600;
+  	padding-bottom: 20px;
+  	color: #4C4C4C;
+  	letter-spacing: 0px;
+  }
+  .form-header p {
+  	font-size: 13px;
+  	color: #4C4C4C;
+  }
+  .form-header p a {
+  	display: block;
+  	padding-top: 7px;
+  }
+
+  form ul {
+  	list-style: none;
+  }
+  li label {
+  	display:block;
+  	padding: 10px 0;
+  	letter-spacing: -1px;
+  	color: #000;
+  	font-size: 14px;
+  }
+  ul li {
+  	padding-bottom: 20px;
+  }
+  ul li input[type=text],
+  ul li input[type=email],
+  ul li input[type=textarea],
+  ul li input[type=password]{
+  	width: 100%;
+  	padding: 10px 6px;
+    border: none;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+  }
+
+  ul li input[type=text]:focus,
+  ul li input[type=email]:focus,
+  ul li input[type=textarea]:focus,
+  ul li input[type=password]:focus{
+  	outline: none;
+  	border: 1px solid #0077C5;
+  	box-shadow: 0 0 5px #0077C5;
+  }
+  section button.btn {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    background-color: #0077C5;
+    border-radius: 4px;
+    margin: 20px 0;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+    font-size: 1.2rem;
+  }
+
+  section .term-services {
+  	font-size: 12px;
+  	padding: 30px 10px;
+  	line-height: 20px;
+  	text-align: center;
+
+  }
+  #main-body .form-footer {
+    padding: 15px 30px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #c7c7c7;
+    border-top: none;
+  }
 /* end of main-body */
 
 
