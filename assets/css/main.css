@@ -136,7 +136,7 @@ body {
     margin: 20px 0;
     color: #fff;
     box-shadow: 1px 1px 2px #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   section .term-services {
@@ -158,6 +158,35 @@ body {
 
 
 /* footer */
+  #footer {
+  	grid-column: 1/4;
+  	grid-row: 3/4;
+  	text-align: center;
+  	margin: 0px 250px 15px 250px;
+  }
+  #footer ul {
+  	list-style: none;
+  }
+  #footer ul li {
+  	display: inline-block;
+  }
+  #footer ul li a {
+     text-decoration: none;
+     padding-right: 10px;
+     color: #000;
+     font-size: 13px;
+     letter-spacing: -1px;
+  }
+  #footer ul li a:hover {
+  	  text-decoration: underline;
+  }
+  #footer p {
+  	font-size: 14px;
+  	color: #000;
+  	letter-spacing: 0px;
+  	line-height: 22px;
+  }
+
 /* end of footer */
 
 
