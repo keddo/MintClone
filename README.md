@@ -1,6 +1,6 @@
-# Embedding Images and Video
+# HTML Forms | Mint Clone
 
-> This project consists of building an HTML document that matches the appearance of youtube video player page.
+> This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
 
 ![screenshot](./app_screenshot.png)
 
