@@ -8,7 +8,8 @@ body {
   .container {
   	display: grid;
   	grid-template-columns: 1fr 400px 1fr;
-  	grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+    position: absolute;
   }
   #header {
   	display: flex;
@@ -175,7 +176,7 @@ body {
   	grid-column: 1/4;
   	grid-row: 3/4;
   	text-align: center;
-  	margin: 0px 250px 15px 250px;
+    margin: 0px 250px 15px 250px;
   }
   
   #footer ul {
@@ -214,6 +215,17 @@ body {
  	position: absolute;
  	top: 42px;
  	left: 320px;
+ }
+
+ .privacy-setting {
+   position: absolute;
+   bottom: 0;
+   right: 50px;
+   border: none;
+   padding: 12px;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 3px;
+   color: #fff;
  }
 /* end of footer */
 
