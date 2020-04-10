@@ -1,6 +1,6 @@
 body {
 	background: #ECEEF1;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 }
 
 /*container*/
@@ -30,8 +30,7 @@ body {
   #header span,
   #header a {
   	display: block;
-  	font-size: 13px;
-  	font-weight: bold;
+  	font-size: 11px;
   	padding: 5px;
 
   }
@@ -81,13 +80,13 @@ body {
   }
   .form-header h1 {
   	font-size: 20px;
-  	font-weight: 600;
+  	font-weight: 400;
   	padding-bottom: 20px;
   	color: #4C4C4C;
   	letter-spacing: 0px;
   }
   .form-header p {
-  	font-size: 13px;
+  	font-size: 12px;
   	color: #4C4C4C;
   }
   .form-header p a {
@@ -102,7 +101,7 @@ body {
   	display:block;
   	padding: 10px 0;
   	letter-spacing: -1px;
-  	color: #000;
+  	color: rgba(0, 0, 0, 0.8);
   	font-size: 14px;
   }
   ul li {
@@ -114,45 +113,50 @@ body {
   ul li input[type=password]{
   	width: 100%;
   	padding: 10px 6px;
-    border: none;
+  	transition:all 0.30s ease-in-out;
     border: 1px solid #c7c7c7;
     border-radius: 4px;
+    outline: none;
+
   }
 
   ul li input[type=text]:focus,
   ul li input[type=email]:focus,
   ul li input[type=textarea]:focus,
   ul li input[type=password]:focus{
-  	outline: none;
-  	border: 1px solid #0077C5;
-  	box-shadow: 0 0 5px #0077C5;
+  	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
   }
   section button.btn {
     width: 100%;
     border: none;
     padding: 12px;
     background-color: #0077C5;
+    border: 1px solid #000;
     border-radius: 4px;
     margin: 20px 0;
     color: #fff;
     box-shadow: 1px 1px 2px #000;
     font-size: 1.1rem;
+    font-weight: normal;
   }
 
   section .term-services {
-  	font-size: 12px;
-  	padding: 30px 10px;
+  	font-size: 11px;
+  	padding: 30px 25px;
   	line-height: 20px;
   	text-align: center;
+  	color: rgba(0, 0, 0, 0.7);
 
   }
   #main-body .form-footer {
     padding: 15px 30px;
-    font-size: 10px;
+    font-size: 9px;
     line-height: 20px;
     text-align: center;
     border: 1px solid #c7c7c7;
     border-top: none;
+    color: rgba(0, 0, 0, 0.7);
   }
 /* end of main-body */
 
@@ -164,29 +168,44 @@ body {
   	text-align: center;
   	margin: 0px 250px 15px 250px;
   }
+  
   #footer ul {
   	list-style: none;
   }
   #footer ul li {
   	display: inline-block;
+  	padding-bottom: 10px;
   }
   #footer ul li a {
      text-decoration: none;
      padding-right: 10px;
-     color: #000;
+     color: rgba(0, 0, 0, 0.8);
      font-size: 13px;
      letter-spacing: -1px;
   }
   #footer ul li a:hover {
   	  text-decoration: underline;
   }
+  ul li small {
+  	font-size: 9px;
+  	padding: 7px 0;
+  }
   #footer p {
-  	font-size: 14px;
-  	color: #000;
+  	font-size: 11px;
+  	color: rgba(0, 0, 0, 0.8);
   	letter-spacing: 0px;
   	line-height: 22px;
   }
 
+ #password {
+ 	position: relative;
+ }
+ #password .position-in {
+ 	color: #c7c7c7;
+ 	position: absolute;
+ 	top: 42px;
+ 	left: 320px;
+ }
 /* end of footer */
 
 
