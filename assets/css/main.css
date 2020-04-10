@@ -72,6 +72,22 @@ body {
   	text-align: center;
   	padding-bottom: 4px;
   }
+  #main-body header div {
+     padding: 10px;
+  }
+  #main-body header div.inline-icon {
+    padding-bottom: 12px;
+    position: absolute;
+  }
+  header div a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+  }
+  header div a .icon-text {
+    position: relative;
+    bottom: 12px;
+    font-size: 1.1rem;
+  }
   .form-header h1 {
   	font-size: 20px;
   	font-weight: 400;
