@@ -3,10 +3,6 @@ body {
 	font-family: 'Libre Baskerville', serif;
 }
 
-/*container*/
-
-
-
 
 /*header*/
   .container {
@@ -58,8 +54,6 @@ body {
   }
 
 /*end fo header*/
-
-
 
 /* main-body */
 
@@ -213,4 +207,3 @@ body {
   .right-space {
   	margin-right: 7px;
   }
-/*end of container*/
