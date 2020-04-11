@@ -1,6 +1,6 @@
 linters:
     stylelint:
-        config: 'stylelintrc.json'
+        config: './stylelintrc.json'
 files:
     ignore:
         - 'node_modules/*'
