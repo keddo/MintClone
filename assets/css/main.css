@@ -119,6 +119,7 @@ body {
   	padding-bottom: 20px;
   }
   ul li input[type=text],
+  ul li input[type=tel],
   ul li input[type=email],
   ul li input[type=textarea],
   ul li input[type=password]{
@@ -132,6 +133,7 @@ body {
   }
 
   ul li input[type=text]:focus,
+  ul li input[type=tel]:focus,
   ul li input[type=email]:focus,
   ul li input[type=textarea]:focus,
   ul li input[type=password]:focus{
