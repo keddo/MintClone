@@ -30,10 +30,6 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Ignatius**
-
-- Github: [@ignatius22](https://github.com/ignatius22)
-
 👤 **Kedir**
 
 - Github: [@keddo](https://github.com/keddo)

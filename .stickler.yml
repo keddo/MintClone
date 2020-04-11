@@ -1,0 +1,8 @@
+linters:
+    stylelint:
+        config: 'stylelintrc.json'
+files:
+    ignore:
+        - 'node_modules/*'
+fixers:
+    enable: true
