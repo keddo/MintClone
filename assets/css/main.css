@@ -241,7 +241,7 @@ ul li small {
 }
 
 .privacy-setting {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 50px;
   border: none;
