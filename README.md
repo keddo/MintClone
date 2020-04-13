@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]( https://radiant-reef-32776.herokuapp.com/)
 
 
 ## Getting Started
@@ -29,10 +29,6 @@ To get a local copy up and running follow these simple example steps.
 
 
 ## Authors
-
-👤 **Ignatius**
-
-- Github: [@ignatius22](https://github.com/ignatius22)
 
 👤 **Kedir**
 
