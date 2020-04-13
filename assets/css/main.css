@@ -1,0 +1,260 @@
+body {
+  background: #eceef1;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* header */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 400px 1fr;
+  grid-template-rows: auto auto auto;
+  position: absolute;
+}
+
+#header {
+  display: flex;
+  grid-column: 1/4;
+  justify-self: end;
+  align-items: flex-start;
+}
+
+#header div,
+#header button {
+  display: inline-block;
+}
+
+#header .lead-text {
+  margin-top: 10px;
+}
+
+header div a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.lead-text a {
+  text-decoration: none;
+}
+
+.form-header p a {
+  display: block;
+  padding-top: 7px;
+}
+
+#header span,
+#header a {
+  display: block;
+  font-size: 11px;
+  padding: 5px;
+}
+
+#header button {
+  width: 100px;
+  background: #0077c5;
+  padding: 0.6rem;
+  margin: 15px 20px 10px 5px;
+  color: #fff;
+  font-weight: normal;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+span.text-secondary {
+  color: #505050;
+}
+
+a.text-primary {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+/* end fo header */
+
+/* main-body */
+
+#main-body {
+  grid-column: 2/3;
+  padding: 20px 0;
+}
+
+#main-body section {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  padding: 30px 30px 0 30px;
+  border-bottom: none;
+}
+
+#main-body header {
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+#main-body header div {
+  padding: 10px;
+}
+
+#main-body header div.inline-icon {
+  padding-bottom: 12px;
+  position: absolute;
+}
+
+header div a .icon-text {
+  position: relative;
+  bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.form-header h1 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: #4c4c4c;
+}
+
+.form-header p {
+  font-size: 12px;
+  color: #4c4c4c;
+}
+
+form ul {
+  list-style: none;
+}
+
+li label {
+  display: block;
+  padding: 10px 0;
+  letter-spacing: -1px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+}
+
+ul li {
+  padding-bottom: 20px;
+}
+
+ul li input[type=text],
+ul li input[type=tel],
+ul li input[type=email],
+ul li input[type=textarea],
+ul li input[type=password] {
+  width: 100%;
+  padding: 10px 6px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #c7c7c7;
+  border-radius: 4px;
+  outline: none;
+}
+
+ul li input[type=text]:focus,
+ul li input[type=tel]:focus,
+ul li input[type=email]:focus,
+ul li input[type=textarea]:focus,
+ul li input[type=password]:focus {
+  box-shadow: 0 0 8px #88d5e9;
+  border: 1px solid #88d5e9;
+}
+
+section button.btn {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  background-color: #0077c5;
+  border-radius: 4px;
+  margin: 20px 0;
+  color: #fff;
+  box-shadow: 1px 1px 2px #000;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+section .term-services {
+  font-size: 11px;
+  padding: 30px 25px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#main-body .form-footer {
+  padding: 15px 30px;
+  font-size: 9px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #c7c7c7;
+  border-top: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* end of main-body */
+
+/* footer */
+
+#footer {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  text-align: center;
+  margin: 0 250px 15px 250px;
+}
+
+#footer ul {
+  list-style: none;
+}
+
+#footer ul li {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+
+#footer ul li a:hover {
+  text-decoration: underline;
+}
+
+ul li small {
+  font-size: 9px;
+  padding: 7px 0;
+}
+
+#footer p {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+#password {
+  position: relative;
+}
+
+#password .position-in {
+  color: #c7c7c7;
+  position: absolute;
+  top: 42px;
+  left: 320px;
+}
+
+.privacy-setting {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  border: none;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  color: #fff;
+}
+
+/* end of footer */
+
+/* icon styles */
+
+.right-space {
+  margin-right: 7px;
+}
